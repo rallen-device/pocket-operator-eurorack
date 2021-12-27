@@ -183,6 +183,30 @@ X VI 3 -300 0 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# mylibs_SW_6mm_panel
+#
+DEF mylibs_SW_6mm_panel J 0 40 Y Y 1 F N
+F0 "J" 0 -100 50 H V C CNN
+F1 "mylibs_SW_6mm_panel" 0 -150 50 H V C CNN
+F2 "mylibs:SW_6mm_panel" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# mylibs_Thonkiconn_PJ398SM_panel
+#
+DEF mylibs_Thonkiconn_PJ398SM_panel J 0 40 Y Y 1 F N
+F0 "J" 0 -150 50 H V C CNN
+F1 "mylibs_Thonkiconn_PJ398SM_panel" 0 -250 50 H V C CNN
+F2 "mylibs:Thonkiconn_PJ398SM_panel" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 71 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # power_+12V
 #
 DEF power_+12V #PWR 0 0 Y Y 1 F P

@@ -382,75 +382,75 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x01 J10
 U 1 1 61F33A38
-P 6650 4100
-F 0 "J10" V 6522 4180 50  0000 L CNN
-F 1 "Conn_01x01" V 6613 4180 50  0000 L CNN
-F 2 "pocket-operator-eurorack_lib:7mm_solder_pad" H 6650 4100 50  0001 C CNN
-F 3 "~" H 6650 4100 50  0001 C CNN
-	1    6650 4100
+P 5250 1400
+F 0 "J10" V 5122 1480 50  0000 L CNN
+F 1 "Conn_01x01" V 5213 1480 50  0000 L CNN
+F 2 "pocket-operator-eurorack_lib:7mm_solder_pad" H 5250 1400 50  0001 C CNN
+F 3 "~" H 5250 1400 50  0001 C CNN
+	1    5250 1400
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+3V3 #PWR023
 U 1 1 61F34398
-P 6650 3850
-F 0 "#PWR023" H 6650 3700 50  0001 C CNN
-F 1 "+3V3" H 6665 4023 50  0000 C CNN
-F 2 "" H 6650 3850 50  0001 C CNN
-F 3 "" H 6650 3850 50  0001 C CNN
-	1    6650 3850
+P 5250 1150
+F 0 "#PWR023" H 5250 1000 50  0001 C CNN
+F 1 "+3V3" H 5265 1323 50  0000 C CNN
+F 2 "" H 5250 1150 50  0001 C CNN
+F 3 "" H 5250 1150 50  0001 C CNN
+	1    5250 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 3850 6650 3900
+	5250 1150 5250 1200
 $Comp
 L Connector_Generic:Conn_01x01 J11
 U 1 1 61F3687B
-P 7400 4100
-F 0 "J11" V 7272 4180 50  0000 L CNN
-F 1 "Conn_01x01" V 7363 4180 50  0000 L CNN
-F 2 "pocket-operator-eurorack_lib:7mm_solder_pad" H 7400 4100 50  0001 C CNN
-F 3 "~" H 7400 4100 50  0001 C CNN
-	1    7400 4100
+P 6000 1400
+F 0 "J11" V 5872 1480 50  0000 L CNN
+F 1 "Conn_01x01" V 5963 1480 50  0000 L CNN
+F 2 "pocket-operator-eurorack_lib:7mm_solder_pad" H 6000 1400 50  0001 C CNN
+F 3 "~" H 6000 1400 50  0001 C CNN
+	1    6000 1400
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR024
 U 1 1 61F37DCA
-P 7400 3800
-F 0 "#PWR024" H 7400 3550 50  0001 C CNN
-F 1 "GND" H 7405 3627 50  0000 C CNN
-F 2 "" H 7400 3800 50  0001 C CNN
-F 3 "" H 7400 3800 50  0001 C CNN
-	1    7400 3800
+P 6000 1100
+F 0 "#PWR024" H 6000 850 50  0001 C CNN
+F 1 "GND" H 6005 927 50  0000 C CNN
+F 2 "" H 6000 1100 50  0001 C CNN
+F 3 "" H 6000 1100 50  0001 C CNN
+	1    6000 1100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7400 3800 7400 3900
+	6000 1100 6000 1200
 $Comp
 L Connector_Generic:Conn_01x01 J12
 U 1 1 61F38DC9
-P 8100 4100
-F 0 "J12" V 7972 4180 50  0000 L CNN
-F 1 "Conn_01x01" V 8063 4180 50  0000 L CNN
-F 2 "pocket-operator-eurorack_lib:7mm_solder_pad" H 8100 4100 50  0001 C CNN
-F 3 "~" H 8100 4100 50  0001 C CNN
-	1    8100 4100
+P 6700 1400
+F 0 "J12" V 6572 1480 50  0000 L CNN
+F 1 "Conn_01x01" V 6663 1480 50  0000 L CNN
+F 2 "pocket-operator-eurorack_lib:7mm_solder_pad" H 6700 1400 50  0001 C CNN
+F 3 "~" H 6700 1400 50  0001 C CNN
+	1    6700 1400
 	0    1    1    0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x01 J13
 U 1 1 61F392BF
-P 8800 4100
-F 0 "J13" V 8672 4180 50  0000 L CNN
-F 1 "Conn_01x01" V 8763 4180 50  0000 L CNN
-F 2 "pocket-operator-eurorack_lib:7mm_solder_pad" H 8800 4100 50  0001 C CNN
-F 3 "~" H 8800 4100 50  0001 C CNN
-	1    8800 4100
+P 7400 1400
+F 0 "J13" V 7272 1480 50  0000 L CNN
+F 1 "Conn_01x01" V 7363 1480 50  0000 L CNN
+F 2 "pocket-operator-eurorack_lib:7mm_solder_pad" H 7400 1400 50  0001 C CNN
+F 3 "~" H 7400 1400 50  0001 C CNN
+	1    7400 1400
 	0    1    1    0   
 $EndComp
-NoConn ~ 8100 3900
-NoConn ~ 8800 3900
+NoConn ~ 6700 1200
+NoConn ~ 7400 1200
 $Comp
 L Connector_Generic:Conn_01x01 J8
 U 1 1 61F3B270
@@ -770,4 +770,59 @@ Wire Wire Line
 	1950 2550 1950 2900
 Wire Wire Line
 	1950 2900 2400 2900
+$Comp
+L mylibs:SW_6mm_panel J3
+U 1 1 61D46000
+P 9600 2700
+F 0 "J3" H 9699 2746 50  0000 L CNN
+F 1 "SW_6mm_panel" H 9699 2655 50  0000 L CNN
+F 2 "mylibs:SW_6mm_panel" H 9600 2700 50  0001 C CNN
+F 3 "" H 9600 2700 50  0001 C CNN
+	1    9600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mylibs:Thonkiconn_PJ398SM_panel J4
+U 1 1 61D46BDF
+P 9600 2900
+F 0 "J4" H 9699 2946 50  0000 L CNN
+F 1 "Thonkiconn_PJ398SM_panel" H 9699 2855 50  0000 L CNN
+F 2 "mylibs:Thonkiconn_PJ398SM_panel" H 9600 2900 50  0001 C CNN
+F 3 "" H 9600 2900 50  0001 C CNN
+	1    9600 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L mylibs:Thonkiconn_PJ398SM_panel J5
+U 1 1 61D46E7A
+P 9600 3100
+F 0 "J5" H 9699 3146 50  0000 L CNN
+F 1 "Thonkiconn_PJ398SM_panel" H 9699 3055 50  0000 L CNN
+F 2 "mylibs:Thonkiconn_PJ398SM_panel" H 9600 3100 50  0001 C CNN
+F 3 "" H 9600 3100 50  0001 C CNN
+	1    9600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L mylibs:Thonkiconn_PJ398SM_panel J14
+U 1 1 61D47146
+P 9600 3300
+F 0 "J14" H 9699 3346 50  0000 L CNN
+F 1 "Thonkiconn_PJ398SM_panel" H 9699 3255 50  0000 L CNN
+F 2 "mylibs:Thonkiconn_PJ398SM_panel" H 9600 3300 50  0001 C CNN
+F 3 "" H 9600 3300 50  0001 C CNN
+	1    9600 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L mylibs:Thonkiconn_PJ398SM_panel J15
+U 1 1 61D473EA
+P 9600 3500
+F 0 "J15" H 9699 3546 50  0000 L CNN
+F 1 "Thonkiconn_PJ398SM_panel" H 9699 3455 50  0000 L CNN
+F 2 "mylibs:Thonkiconn_PJ398SM_panel" H 9600 3500 50  0001 C CNN
+F 3 "" H 9600 3500 50  0001 C CNN
+	1    9600 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
