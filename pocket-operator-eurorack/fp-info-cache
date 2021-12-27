@@ -1,4 +1,4 @@
-19416102682442466
+19422664931498344
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83041,6 +83041,20 @@ hook_fill_2
 0
 0
 pocket-operator-eurorack
+logo_fcu
+
+
+0
+0
+0
+pocket-operator-eurorack
+logo_silk
+
+
+0
+0
+0
+pocket-operator-eurorack
 screen
 
 
@@ -83054,3 +83068,17 @@ side
 0
 0
 0
+pocket-operator-eurorack_lib
+2mm_solder_pad
+
+
+0
+1
+1
+pocket-operator-eurorack_lib
+7mm_solder_pad
+
+
+0
+1
+1
