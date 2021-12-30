@@ -1,5 +1,5 @@
 (fp_lib_table
-  (lib (name pocket-operator-eurorack)(type KiCad)(uri /Users/richardallen/Documents/Projects/Effects/pocket-operator-eurorack)(options "")(descr ""))
   (lib (name pocket-operator-eurorack_lib)(type KiCad)(uri ${KIPRJMOD}/pocket-operator-eurorack_lib.pretty)(options "")(descr ""))
   (lib (name AudioJacks)(type KiCad)(uri "/Users/richardallen/Library/Application Support/kicad/AudioJacks/AudioJacks.pretty")(options "")(descr ""))
+  (lib (name pocket-operator-eurorack)(type KiCad)(uri ${KIPRJMOD}/pocket-operator-eurorack_lib.pretty)(options "")(descr ""))
 )
