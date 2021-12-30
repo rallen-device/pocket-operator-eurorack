@@ -7,3 +7,6 @@ Splits stereo input + output in two mono channels for each allowing separation o
 
 Fits into a standard eurorack 3U case with width of 14HP.
 
+# Relevant
+
+3D step model of a pocket operator was created for this project. It can be found on grabcad: https://grabcad.com/library/teenage-engineering-pocket-operator-1
